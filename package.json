@@ -1,0 +1,38 @@
+{
+  "name": "@dx-libs/array-extensions",
+  "version": "0.0.2",
+  "description": "Array extensions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests.js -c --reporter spec",
+    "eslint": "eslint **/*.js"
+  },
+  "engines": {
+    "node": ">=8.9.3",
+    "npm": ">=6.4.1"
+  },
+  "keywords": [
+    "array",
+    "extensions",
+    "linq"
+  ],
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^4.1.0"
+  },
+  "dependencies": {},
+  "directories": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dx-libs/array-extensions.git"
+  },
+  "author": "dxTeam <team@daax.com.ar>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dx-libs/array-extensions/issues"
+  },
+  "homepage": "https://github.com/dx-libs/array-extensions#readme"
+}
